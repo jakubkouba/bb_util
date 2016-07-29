@@ -5,10 +5,10 @@ This gem provide set of utilities to improve and speed up working with BookingBu
 ## TODO
 
 * Create command line tool by using thor gem
-* This provides you ability to switch clients in Rails app
-  * it reimports DB data
-  * change site key in local settings
-  * change db mane in database.yml file  
+* Switch clients
+  * it reimports DB data from backup file
+  * change "site:" key in local settings
+  * change DB "name:" key in database.yml file  
 
 ## Installation
 
@@ -26,7 +26,10 @@ Or install it yourself as:
 
     $ gem install bb_util
 
+
 ## Usage
+
+.....
 
 
 
